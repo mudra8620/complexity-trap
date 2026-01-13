@@ -1,0 +1,17 @@
+tier,representation,original_acc,mutated_acc,drop,retention
+Linear,Char-Level,81.2,25.1,-56.1,31
+Linear,BPE,82.0,62.0,-20.0,76
+Linear,Positional,84.1,84.1,0.0,100
+Linear,Pure,84.0,84.0,0.0,100
+Conditional,Char-Level,84.0,30.6,-53.4,36
+Conditional,BPE,85.0,70.0,-15.0,82
+Conditional,Positional,90.9,90.9,0.0,100
+Conditional,Pure,89.1,89.1,0.0,100
+Loop,Char-Level,88.1,31.0,-57.1,35
+Loop,BPE,86.0,67.0,-19.0,78
+Loop,Positional,87.8,87.8,0.0,100
+Loop,Pure,88.9,88.9,0.0,100
+Recursion,Char-Level,92.8,31.1,-61.8,34
+Recursion,BPE,90.0,62.0,-28.0,69
+Recursion,Positional,93.4,93.4,0.0,100
+Recursion,Pure,93.9,93.9,0.0,100

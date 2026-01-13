@@ -1,0 +1,32 @@
+# Default configuration for experiments
+
+# Model
+model:
+  d_model: 128
+  nhead: 4
+  num_layers: 2
+  dropout: 0.1
+
+# Training
+training:
+  epochs: 50
+  batch_size: 32
+  learning_rate: 0.0001
+  optimizer: adamw
+  weight_decay: 0.01
+
+# Data
+data:
+  samples_per_tier: 10000
+  train_split: 0.8
+  random_seed: 42
+
+# Tokenization
+tokenization:
+  bpe_vocab_size: 10000
+  max_seq_length: 512
+
+# Mutation
+mutation:
+  variable_name_length: 5
+  preserve_builtins: true

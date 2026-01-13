@@ -1,0 +1,25 @@
+{
+  "char_final_acc": 0.8784875,
+  "ast_final_acc": 0.94425,
+  "char_samples_to_90": null,
+  "ast_samples_to_90": 25000,
+  "char_vocab_size": 25,
+  "ast_vocab_size": 14,
+  "expansion_ratio": 1.3870967741935485,
+  "training_time": 2461.887193441391,
+  "n_samples": 5000,
+  "config": {
+    "n_samples": 5000,
+    "n_epochs": 50,
+    "batch_size": 64,
+    "tiers": [
+      "linear"
+    ],
+    "depths": [
+      1,
+      2
+    ]
+  },
+  "char_final_loss": 0.2583377729892731,
+  "ast_final_loss": 0.11055984544754029
+}
