@@ -21,7 +21,7 @@ AST representations achieve **empirically perfect invariance (0% degradation)** 
 ## Installation
 
 ```bash
-git clone https://github.com/mudra6820/complexity-trap.git
+git clone https://github.com/mudra8620/complexity-trap.git
 cd complexity-trap
 pip install -r requirements.txt
 ```
